@@ -1,0 +1,85 @@
+body {
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+p {
+  line-height: 27px;
+}
+header .navbar .navbar-brand img {
+  width: 230px;
+}
+header .navbar,
+#merchandise {
+  background-color: #faf0dc;
+}
+header .navbar .navbar-collapse .navbar-nav .nav-link {
+  text-transform: uppercase;
+  color: rgb(14, 14, 14);
+  padding-right: 36px;
+  font-size: 0.9em;
+  font-family: "Montserrat", sans-serif;
+}
+#merchandise h1 {
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+#merchandise .card {
+  font-family: "Montserrat", sans-serif;
+  border: unset;
+  border-radius: unset;
+  text-align: center;
+}
+#merchandise .card .card-body {
+  padding-top: 0.7em;
+  padding-bottom: 0.5em;
+  background-color: #f0f5f9;
+}
+#merchandise .card .card-body h5 {
+  font-size: 0.9em;
+  line-height: 18px;
+  font-weight: 700;
+}
+#merchandise .card .card-body span {
+  font-size: 1.3em;
+  font-weight: 400;
+}
+#merchandise .card .card-body .btn {
+  background-color: #ff593f;
+  color: white;
+  padding: 0.175rem 0.55rem;
+  margin-left: 0.9em;
+  font-size: 0.9em;
+  border-radius: 3px;
+}
+footer {
+  font-family: "Comfortaa", cursive;
+  background-color: #8eb4db;
+}
+footer img {
+  width: 230px;
+}
+footer p {
+  color: white;
+}
+footer .socialLinks a {
+  height: 47px;
+  width: 47px;
+  line-height: 47px;
+  border-radius: 50%;
+  font-size: 1.5em;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  color: #8eb4db;
+  background-color: white;
+}

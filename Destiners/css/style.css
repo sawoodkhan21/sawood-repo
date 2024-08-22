@@ -1,0 +1,709 @@
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif !important;
+}
+html {
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+button:focus,
+.btn:focus,
+.form-control:focus,
+.form-select:focus,
+.form-check-input:focus {
+  outline: none;
+  box-shadow: none !important;
+}
+header .destinersTop .destinersTopText {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem 1rem;
+}
+header .destinersTop .destinersTopText .online {
+  color: #818181;
+}
+header .destinersTop .destinersTopText .renting {
+  color: #818181;
+}
+header .navbar {
+  padding: 0.2rem 1rem;
+  background-color: #d9e9e8;
+}
+header .navbar .navbar-collapse .navbar-nav {
+  justify-content: space-between;
+}
+header .navbar .navbar-collapse .navbar-nav .nav-link {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #0031de;
+  opacity: 0.9;
+  font-size: 1.1rem;
+  padding-left: 0;
+  padding-right: 0;
+  letter-spacing: -0.0125rem;
+  transition: all 0.3s ease-in-out;
+}
+header .navbar .navbar-collapse .navbar-nav .nav-link:hover {
+  opacity: 1;
+}
+header .navbar .navbar-collapse .navbar-nav .number {
+  color: #818181;
+}
+#volkswagen,
+#descubre {
+  margin-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+#volkswagen .breadcrumb li a {
+  text-decoration: none;
+  color: #210021;
+}
+#volkswagen .breadcrumb li {
+  margin-left: 0.3rem;
+  display: flex;
+  align-items: center;
+}
+#volkswagen .breadcrumb li span {
+  font-size: 1.3rem;
+}
+#volkswagen .breadcrumb .active {
+  color: black;
+  font-weight: 600;
+}
+#volkswagen .headingTop {
+  text-align: center;
+}
+#volkswagen .headingTop h1 {
+  font-weight: 700;
+  color: #000000;
+  letter-spacing: -0.0125rem;
+  margin-bottom: 0.3rem;
+  font-size: 2.2rem;
+  opacity: 0.9;
+}
+#volkswagen .headingTop p {
+  color: #5c5758;
+}
+#volkswagen .largeCar {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  transform: scale(1.1);
+}
+#volkswagen .smallCars {
+  text-align: center;
+}
+#volkswagen .smallCars img {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  width: 95px;
+}
+#volkswagen .carsText {
+  text-align: center;
+  margin-top: 0.2rem;
+  font-size: 0.9rem;
+  color: #818181;
+}
+#volkswagen .destacado {
+  margin: 1.4rem 0;
+}
+#volkswagen .destacado h5 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  opacity: 0.9;
+  letter-spacing: -0.0125rem;
+  color: #000000;
+}
+#volkswagen .check,
+#volkswagen .incluido {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#volkswagen .incluido img {
+  margin-right: 1rem;
+}
+#volkswagen .check i {
+  color: #0031de;
+  font-size: 1.1rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+#volkswagen .check span {
+  color: #444444;
+}
+#volkswagen .medida {
+  margin-top: 2.8rem;
+  margin-bottom: 0.7rem;
+}
+#volkswagen .medida h2,
+#descubre h2 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: -0.0125rem;
+  color: #1057ef;
+  text-align: center;
+}
+#volkswagen .enter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#volkswagen .enter p {
+  line-height: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #5c5758;
+}
+#volkswagen .datos {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+#volkswagen .borderBottom {
+  border-bottom: unset;
+}
+#volkswagen .nav-tabs .btnPadding {
+  background-color: #94a09f;
+  color: white;
+  margin-right: 0.3rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0.3rem 1.1rem;
+  border-top-left-radius: 0.27rem;
+  border-top-right-radius: 0.27rem;
+  border-bottom: unset;
+  border-top: 3px solid transparent;
+  border-left: unset;
+  border-right: unset;
+}
+#volkswagen .nav-tabs .btnPadding.active {
+  border-top: 3px solid #2acbbc;
+  color: #1057ef;
+  opacity: 0.9;
+  background: transparent;
+}
+#volkswagen .nav-tabs .margRight {
+  margin-right: unset;
+}
+#volkswagen .tab-content .bgColor {
+  background-color: #eaeaea;
+  border-radius: 1px;
+  margin-top: 0.1rem;
+  padding: 3.6rem 2.1rem 3rem 2.1rem;
+}
+#volkswagen .tab-content .bgColor .motor h3 {
+  margin-left: 0.2rem;
+  margin-bottom: 0.4rem;
+  font-size: 2rem;
+  color: #444444;
+}
+#volkswagen .tab-content .bgColor .motor h5 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #444444;
+}
+#volkswagen .tab-content .bgColor .list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#volkswagen .tab-content .bgColor .list ul li {
+  color: #5c5758;
+  position: relative;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+#volkswagen .tab-content .bgColor .list ul li::before {
+  content: "";
+  position: absolute;
+  left: -23px;
+  top: 8px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #1057ef;
+}
+#volkswagen .card {
+  border: 0;
+  background-color: #d9e9e8;
+  padding: 1.5rem 0.9rem;
+  border-radius: 0.33rem;
+}
+#volkswagen .card .cardText h5 {
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: -0.0125rem;
+  font-size: 1.17rem;
+  color: #060606;
+  margin-bottom: 1.3rem;
+}
+#volkswagen .card .cardText .roc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.1rem;
+}
+#volkswagen .card .cardText .roc h6 {
+  color: #444444;
+  font-size: 1.2rem;
+  margin-bottom: 0.1rem;
+}
+#volkswagen .card .cardText .roc p {
+  color: #818181;
+}
+#volkswagen .card .cardText .roc .euro1 {
+  font-weight: 700;
+  color: #0031de;
+  font-size: 1.2rem;
+}
+#volkswagen .card .cardText .roc .mes {
+  color: #818181;
+  font-size: 0.9rem;
+  font-weight: 500;
+  opacity: 0.9;
+}
+#volkswagen .card .cardText .roc .euro2 {
+  color: #1b8379;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+#volkswagen .card .cardText .form-select {
+  border: 0;
+  padding: 0.595rem 2.25rem 0.595rem 0.65rem;
+  color: #818181;
+  cursor: pointer;
+  position: relative;
+  border-radius: 0.28rem;
+  background-image: url(../img/arrow-down.png);
+  background-repeat: no-repeat;
+  background-position: right 0.82rem center;
+  background-size: auto;
+}
+#volkswagen .card .cardText .middleSelect,
+#volkswagen .card .cardText .dejanos .middleInput,
+#contactSection .middleInput {
+  margin: 0.8rem 0;
+}
+#volkswagen .card .cardText .form-check {
+  margin-top: 1.4rem;
+  margin-right: 4.5rem;
+}
+#volkswagen .card .cardText .dejanos {
+  text-align: center;
+  padding-top: 4rem;
+}
+#volkswagen .card .cardText .dejanos .dejanosPara {
+  color: #444444;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+#volkswagen .card .cardText .dejanos .form-control,
+#contactSection .form-control {
+  border: 0;
+  color: #818181;
+  padding: 0.595rem 0.8rem 0.595rem 0.65rem;
+  border-radius: 0.28rem;
+}
+#volkswagen .card .cardText .checkboxInput {
+  margin-top: 1.4rem;
+}
+#volkswagen .card .cardText .checkboxInput label {
+  color: #444444;
+  font-size: 0.9rem;
+}
+#volkswagen .card .cardText .checkboxInput label span {
+  color: #79d5d1;
+}
+#volkswagen .card .cardText .btn,
+#descubre .lgBtn,
+#primer .btn,
+#contactSection .btn {
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  padding: 0.595rem 0.8rem 0.595rem 0.65rem;
+  background-color: #1057ef;
+  letter-spacing: 0.011rem;
+  border-radius: 0.42rem;
+  margin-top: 1.4rem;
+  font-weight: 500;
+  color: white;
+  width: 100%;
+}
+#volkswagen .card .cardText .cardBottom p {
+  color: #818181;
+  font-size: 0.866rem;
+  text-align: center;
+  line-height: 19px;
+  margin-top: 1rem;
+}
+#descubre .card {
+  border-radius: 0.99rem;
+  border: unset;
+  background-color: #d9e9e8;
+  height: 100%;
+}
+#descubre .card .cardText {
+  padding: 0 0.9rem 0.9rem 0.9rem;
+}
+#descubre .card .cardText .badgeRed {
+  position: absolute;
+  top: 0;
+  right: 11px;
+  background: url(../img/card-badge-red.png) no-repeat right;
+  background-size: cover;
+  width: 90px;
+  height: 58px;
+}
+#descubre .card .cardText .badgeGreen {
+  background: url(../img/card-badge-green.png) no-repeat right;
+  background-size: cover;
+  width: 90px;
+  height: 58px;
+}
+#descubre .card .cardText .badgeBlue {
+  background: url(../img/card-badge-blue.png) no-repeat right;
+  background-size: cover;
+  width: 90px;
+  height: 58px;
+}
+#descubre .card .cardText .badgePurple {
+  background: url(../img/card-badge-purple.png) no-repeat right;
+  background-size: cover;
+  width: 90px;
+  height: 58px;
+}
+#descubre .card .cardText .badgeRed .imgText {
+  padding: 0.8rem 0.7rem 0 0.6rem;
+  line-height: 14px;
+  color: white;
+  opacity: 0.9;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-align: center;
+}
+#descubre .card .cardText .whiteBox {
+  background-color: white;
+  padding: 1rem 0.8rem;
+  margin-top: 0.9rem;
+  width: 131px;
+  border-radius: 0.49rem;
+}
+#descubre .card .cardText .whiteBox span {
+  color: #818181;
+  font-size: 0.9rem;
+}
+#descubre .card .cardText .whiteBox .automatico {
+  margin-bottom: 0.3rem;
+}
+#descubre .card .cardText .whiteBox img {
+  width: 15px;
+}
+#descubre .card .cardCar {
+  position: absolute;
+  top: 77px;
+  right: 0;
+}
+#descubre .card .cardBottom1 {
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+}
+#descubre .card .cardText .cardBottom1 .euro1 {
+  font-weight: 700;
+  color: #0031de;
+  opacity: 0.9;
+  font-size: 1.5rem;
+}
+#descubre .card .cardText .cardBottom1 .mes {
+  color: #818181;
+  font-size: 0.8rem;
+  font-weight: 500;
+  opacity: 0.9;
+}
+#descubre .card .cardText h6 {
+  color: #444444;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+#descubre .card .cardText p {
+  color: #818181;
+  font-size: 0.9rem;
+}
+#descubre .card .cardText .cardBottom2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#descubre .card .cardText .cardBtn {
+  background-color: #1b8379;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 0.595rem 1.3rem;
+}
+#descubre .lgBtn {
+  margin: 0 auto;
+  width: 70%;
+}
+#descubre h2 {
+  margin-top: 0.9rem;
+  margin-bottom: 2.2rem;
+}
+#details {
+  background: url(../img/details-section-bg.png) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  padding: 4.3rem 1rem;
+  margin-top: 4rem;
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+#details .detailsText {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+#details .detailsText h2 {
+  margin-bottom: 1rem;
+}
+#details .detailsText p {
+  color: #2acbbc;
+  font-size: 1.1rem;
+}
+#details .steps {
+  text-align: center;
+}
+#details .steps ul {
+  margin: 0;
+  padding: 0;
+}
+#details .steps ul li {
+  list-style: none;
+  float: left;
+  width: 25%;
+  position: relative;
+  z-index: 1;
+}
+#details .steps ul li::before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  width: 100%;
+  z-index: -1;
+  border: 1px dashed #1b8379;
+}
+#details .steps ul li:last-child::before {
+  content: none;
+}
+#details .steps .stepsContent .circle {
+  color: #1057ef;
+  background-color: white;
+  border: 6px solid #79d5d1;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  border-radius: 50%;
+  font-size: 2.2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#details .steps .circleText h5 {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+#details .steps .circleText {
+  margin-top: 2rem;
+  padding: 0 2rem;
+}
+#primer {
+  padding-top: 5.5rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+#primer h2 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: -0.0125rem;
+  color: #1057ef;
+  margin-bottom: 0.6rem;
+}
+#primer p {
+  color: #060606;
+  opacity: 0.9;
+  font-weight: 600;
+}
+#primer .btn {
+  width: 70%;
+  margin-top: 2rem;
+}
+#primer span,
+#contactSection span {
+  display: inline-block;
+  transform: rotate(180deg);
+}
+#contactSection {
+  background: url(../img/contact-section-bg.png) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  padding: 4.3rem 0 2.3rem 0;
+  color: white;
+  text-align: center;
+}
+#contactSection .contactText h2 {
+  font-size: 1.9rem;
+  margin-bottom: 0.4rem;
+}
+#contactSection .contactText p {
+  color: #2acbbc;
+  font-weight: 500;
+  margin-bottom: 1.4rem;
+}
+#contactSection .checkboxInput {
+  text-align: left;
+  margin-top: 1.4rem;
+}
+#contactSection .checkboxInput a {
+  text-decoration: none;
+  color: #2acbbc;
+}
+#contactSection .btn {
+  width: 70%;
+  margin-top: 3rem;
+}
+#contactSection .checkboxInput label {
+  font-size: 0.9rem;
+}
+#contactSection .numberText {
+  margin-top: 1.4rem;
+}
+#contactSection .numberText :nth-child(1),
+#contactSection .bottomText :nth-child(1) {
+  color: white;
+  margin-bottom: 0;
+  font-size: 0.9rem;
+}
+#contactSection .numberText :nth-child(2) {
+  font-size: 1.2rem;
+}
+footer {
+  color: white;
+  background-color: #1b8379;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-size: 0.9rem;
+}
+footer .footerLogo,
+footer h5 {
+  margin-bottom: 1rem;
+}
+footer .copyRight,
+footer .socialIcons {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+footer p {
+  line-height: 20px;
+}
+footer .socialIcons a {
+  text-decoration: none;
+  color: #1b8379;
+  font-size: 1.7rem;
+  background-color: white;
+  margin-right: 0.4rem;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+}
+footer .links ul {
+  margin: 0;
+  padding: 0;
+}
+footer .links ul li {
+  list-style: none;
+  padding-bottom: 0.7rem;
+}
+footer .links ul li a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  font-size: 0.8rem;
+}
+footer .links ul li a span {
+  display: inline-block;
+  transform: rotate(180deg);
+}
+footer .topEmpty {
+  margin-top: 2.5rem;
+}
+footer .marcas {
+  padding-left: 6rem;
+}
+.footerBottom {
+  background-color: #d9e9e8;
+}
+.footerBottom .footerImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.footerBottom .footerImg img {
+  margin-left: 0.9rem;
+  margin-right: 0.9rem;
+}
+@media (min-width: 992px) {
+  header .navbar .navbar-collapse {
+    display: unset !important;
+  }
+}
+@media (max-width: 992px) {
+  footer .marcas {
+    padding-left: 0;
+    margin-top: 3rem;
+  }
+  .socialIcons {
+    margin-bottom: 3rem !important;
+  }
+  footer {
+    padding-bottom: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  section,
+  header .navbar,
+  .destinersTopText {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  #details .steps ul li {
+    float: none;
+    width: 100%;
+  }
+  #details .steps ul li::before {
+    content: none;
+  }
+  #details .steps .circleText {
+    margin-top: 0.8rem;
+    margin-bottom: 2rem;
+    padding: 0;
+  }
+}

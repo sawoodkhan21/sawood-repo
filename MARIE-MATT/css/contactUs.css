@@ -1,0 +1,64 @@
+body {
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+p {
+  line-height: 27px;
+}
+header .navbar,
+#contactUs {
+  background-color: #faf0dc;
+}
+header .navbar .navbar-brand img {
+  width: 230px;
+}
+header .navbar .navbar-collapse .navbar-nav .nav-link {
+  text-transform: uppercase;
+  color: rgb(14, 14, 14);
+  padding-right: 36px;
+  font-size: 0.9em;
+  font-family: "Montserrat", sans-serif;
+}
+#contactUs h1 {
+  color: black;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+#contactUs p {
+  font-family: "Comfortaa", cursive;
+}
+#contactUs .btn {
+  color: white;
+  background-color: #ff593f;
+  font-family: "Montserrat", sans-serif;
+}
+footer {
+  font-family: "Comfortaa", cursive;
+  background-color: #8eb4db;
+}
+footer img {
+  width: 230px;
+}
+footer p {
+  color: white;
+}
+footer .socialLinks a {
+  height: 47px;
+  width: 47px;
+  line-height: 47px;
+  border-radius: 50%;
+  font-size: 1.5em;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  color: #8eb4db;
+  background-color: white;
+}

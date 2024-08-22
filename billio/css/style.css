@@ -1,0 +1,138 @@
+header nav .navbar-brand {
+  font-family: "Righteous", cursive !important;
+  color: white;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header nav ul img {
+  width: 30px;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none !important;
+}
+
+header nav ul li .notification::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  right: -4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: green;
+  border: 1px solid #fff;
+}
+
+header nav ul li .bell::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  right: -2px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: orange;
+  border: 1px solid #fff;
+}
+
+.top-section {
+  background-image: url(../img/bg-img1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 200px;
+}
+
+.top-section .avatar {
+  width: 65px;
+  height: 65px;
+  border-top: 3px solid rgb(192, 5, 192);
+  border-right: 3px solid white;
+  border-left: 3px solid blue;
+  border-bottom: 3px solid orange;
+  border-radius: 50%;
+}
+
+.top-section .avatar img {
+  object-fit: cover;
+}
+
+.card-section .card {
+  border: 0;
+}
+
+.card-group .card1 {
+  background-color: #fcad1d;
+}
+
+.card-group .card2 {
+  background-color: #197474;
+}
+
+.card-group .card3 {
+  background-color: #dcb92f;
+}
+
+.card-group .card4 {
+  background-color: #ff714b;
+}
+
+.card-section .card-group .card i {
+  font-size: 2.1rem;
+  color: white;
+  font-weight: 100;
+  opacity: 0.9;
+}
+
+.card-section .card-group .card h2 {
+  font-family: "Oswald", sans-serif !important;
+}
+
+.card-section .card-group .card .list-group .list-group-item {
+  background-color: transparent !important;
+  letter-spacing: 1px;
+}
+
+.card-section .list-group .list-group-item {
+  font-family: "Mukta", sans-serif !important;
+}
+
+footer {
+  background-image: url(../img/bg-img2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 300px;
+  font-family: "Mukta", sans-serif !important;
+}
+
+@media (max-width: 768px) {
+  .card-section .container-fluid {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  footer {
+    padding-top: 3rem;
+    text-align: center;
+  }
+  footer .col-md-3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .top-section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  header .navbar-brand {
+    padding-top: 2rem !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+}

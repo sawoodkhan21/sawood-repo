@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background: url(../img/Background.png) no-repeat center top;
+  background-size: cover;
+  min-height: 100vh;
+  color: #000;
+}
+body,
+html {
+  overflow-x: hidden;
+}
+.btn,
+.form-control {
+  box-shadow: none !important;
+  outline: unset;
+}
+#heroSection {
+  /* background: url(../img/Group\ 1.png) no-repeat center top;
+  background-size: cover;
+  min-height: 100vh; */
+}
+#heroSection .oriaLogo,
+footer .oriaLogo {
+  width: 140px;
+}
+#heroSection .waitlistBtn,
+#startupWithOria .signUpBetaBtn {
+  background-color: #ffc700 !important;
+  color: white !important;
+  border-color: #ffc700 !important;
+  border-radius: 30px;
+  padding: 0.5rem 1.2rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+#heroSection .textCenter,
+#whoIsOria,
+.keyFeaturesBlur,
+#startupWithOria,
+footer {
+  text-align: center;
+}
+#heroSection .headingLg,
+#startupWithOria .headingMd {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 2.4rem;
+}
+#heroSection .py {
+  padding: 8rem 0 0 0;
+}
+#whoIsOria {
+  padding: 23rem 0 10rem 0;
+}
+.h3Heading {
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+#heroSection .accessBtn {
+  background-color: #ffc700;
+  color: white;
+  border-color: #ffc700;
+  font-weight: 500;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  margin-left: 0.4rem;
+}
+#heroSection .formControl {
+  border-radius: 10px;
+  border-color: white;
+}
+#keyFeatures .keyFeaturesBlur {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 26px;
+  padding: 1rem 2.2rem;
+  margin-bottom: 3rem;
+  overflow: hidden;
+}
+.keyFeaturesBlur .bottomLine {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 1px;
+  margin: 0.4rem 0;
+}
+.keyFeaturesBlur p {
+  font-size: 0.9rem;
+}
+.keyFeaturesBlur h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0.9rem 0;
+}
+.keyFeaturesBlur .py {
+  padding: 4rem 0;
+  height: 100%;
+  position: relative;
+}
+.keyFeaturesBlur .borderRight {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 1px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0 -0.5rem;
+}
+#startupWithOria .headingMd {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+#startupWithOria .gradientBg {
+  border-radius: 26px;
+  padding: 2.5rem 4rem;
+  margin-bottom: 3rem;
+  background: linear-gradient(
+    276.34deg,
+    rgba(255, 255, 255, 0.5) 32%,
+    rgba(255, 140, 228, 0.5) 94.69%
+  );
+}
+#startupWithOria p {
+  margin: 0.8rem 0;
+  padding: 0 1.5rem;
+}
+#startupWithOria .signUpBetaBtn {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05) !important;
+  padding: 0.7rem 1.2rem;
+}
+footer {
+  background: url(../img/footerBg.png) no-repeat center;
+  background-size: cover;
+  padding: 3.5rem 0 1rem 0;
+  position: relative;
+  z-index: 1;
+}
+footer .gradientImg {
+  position: absolute;
+  left: 3%;
+  top: 0;
+  z-index: -1;
+}
+footer p {
+  font-size: 14px;
+  margin-top: 1.5rem;
+}
+footer .oriaLogo {
+  margin-bottom: 2.4rem;
+}
+footer .footerCopyRight {
+  font-size: 13px;
+  margin-top: 2.4rem;
+}
+footer .footerNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .footerLink {
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 0 2rem;
+}
+footer .socialMedia {
+  color: #000;
+  font-size: 1.3rem;
+  margin: 0 0.2rem;
+}
+footer .mt {
+  margin-top: 1.5rem;
+}

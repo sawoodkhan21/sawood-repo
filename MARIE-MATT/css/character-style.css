@@ -1,0 +1,108 @@
+body {
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+p {
+  line-height: 27px;
+}
+header .navbar,
+#characters,
+#copy {
+  background-color: #faf0dc;
+}
+header .navbar .navbar-brand img {
+  width: 230px;
+}
+header .navbar .navbar-collapse .navbar-nav .nav-link {
+  text-transform: uppercase;
+  color: rgb(14, 14, 14);
+  padding-right: 36px;
+  font-size: 0.9em;
+  font-family: "Montserrat", sans-serif;
+}
+#characters h1 {
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+#characters .ebook {
+  margin-right: 1.5em;
+  font-family: "Inter", sans-serif;
+}
+#characters .ebook h5 {
+  color: #8e9fb4;
+  font-weight: 700;
+}
+#characters p {
+  font-family: "Comfortaa", cursive;
+  line-height: 25px;
+}
+#largeBgImg {
+  background: url(../images/poetry.png) no-repeat center;
+  background-size: cover;
+  min-height: 550px;
+  width: 100%;
+}
+#copy h1 {
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+#copy p,
+#copy ul li,
+#copy .btn {
+  font-family: "Montserrat", sans-serif;
+}
+#copy ul li {
+  list-style: none;
+  position: relative;
+  padding-left: 1.6em;
+  line-height: 40px;
+  font-size: 0.9em;
+}
+#copy ul {
+  margin: 0;
+  padding: 0;
+}
+#copy ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 17px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #ff593f;
+}
+#copy .btn {
+  background-color: #ff593f;
+  color: white;
+}
+footer {
+  font-family: "Comfortaa", cursive;
+  background-color: #8eb4db;
+}
+footer img {
+  width: 230px;
+}
+footer p {
+  color: white;
+}
+footer .socialLinks a {
+  height: 47px;
+  width: 47px;
+  line-height: 47px;
+  border-radius: 50%;
+  font-size: 1.5em;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  color: #8eb4db;
+  background-color: white;
+}

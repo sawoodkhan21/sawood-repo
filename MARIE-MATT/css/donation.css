@@ -1,0 +1,150 @@
+body {
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+p {
+  line-height: 27px;
+}
+header .navbar {
+  background-color: #faf0dc;
+}
+header .navbar .navbar-brand img {
+  width: 230px;
+}
+header .navbar .navbar-collapse .navbar-nav .nav-link {
+  text-transform: uppercase;
+  color: rgb(14, 14, 14);
+  padding-right: 36px;
+  font-size: 0.9em;
+  font-family: "Montserrat", sans-serif;
+}
+#donation {
+  background-color: #8eb4db;
+}
+#donation h1,
+#works h1 {
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+#donation img {
+  border: 10px solid black;
+  border-radius: 10px;
+}
+#donation h3 {
+  font-weight: 700;
+  color: white;
+  font-size: 2.5em;
+  font-family: "Inter", sans-serif;
+  padding-right: 1em;
+}
+#donateNow p {
+  font-family: "Comfortaa", cursive;
+  line-height: 25px;
+}
+#donateNow .btn {
+  background-color: #ff593f;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+#works {
+  background-color: #faf0dc;
+}
+#works .details {
+  padding: 15px 20px;
+  border-radius: 6px;
+  background-color: white;
+  width: 50%;
+  position: relative;
+}
+#works .speechBubble1::before {
+  content: "";
+  left: -20px;
+  top: 52px;
+  position: absolute;
+  border-top: 13px solid transparent;
+  border-right: 26px solid white;
+  border-bottom: 13px solid transparent;
+}
+#works .speechBubble2::after {
+  content: "";
+  right: -20px;
+  top: 52px;
+  position: absolute;
+  border-top: 13px solid transparent;
+  border-left: 26px solid white;
+  border-bottom: 13px solid transparent;
+}
+#works .details h6,
+#works .details p {
+  font-family: "Montserrat", sans-serif;
+}
+#works h6 {
+  font-weight: 600;
+  margin-bottom: 0.7em;
+}
+#works p {
+  font-weight: 500;
+  font-size: 0.9em;
+  line-height: 23px;
+}
+#works .target .footImg {
+  width: 115px;
+  height: 115px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #8eb4db;
+  border-radius: 50%;
+}
+.target {
+  padding-left: 0.5em;
+  width: 12.666%;
+}
+#works .side {
+  padding-right: 0.5em;
+}
+#works .target .footImg img {
+  width: 80px;
+}
+footer {
+  font-family: "Comfortaa", cursive;
+  background-color: #8eb4db;
+}
+footer img {
+  width: 230px;
+}
+footer p {
+  color: white;
+}
+footer .socialLinks a {
+  height: 47px;
+  width: 47px;
+  line-height: 47px;
+  border-radius: 50%;
+  font-size: 1.5em;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  color: #8eb4db;
+  background-color: white;
+}
+@media (max-width: 992px) {
+  #works .details {
+    width: 100%;
+  }
+  #donation h3 {
+    padding-right: 0;
+    margin-bottom: 0.8em;
+    text-align: center;
+  }
+}

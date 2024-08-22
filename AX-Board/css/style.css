@@ -1,0 +1,261 @@
+body {
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif !important;
+  background-color: #28082e;
+  color: white;
+}
+html {
+  /* overflow-x: hidden; */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+/* font-family: "Agency FB", sans-serif; */
+header .img1,
+header .img2 {
+  top: 0;
+  width: 25%;
+  position: absolute;
+  z-index: 1;
+}
+header .img1 {
+  right: 0;
+}
+header .img2 {
+  left: 0;
+}
+header .logo {
+  text-align: center;
+  position: relative;
+}
+header .logo img {
+  width: 20%;
+}
+header .logo h1,
+#auctions .logo h1 {
+  font-family: "Orbitron", sans-serif;
+  color: #e302de;
+  text-shadow: 1px 2px 1px #33254e;
+  position: relative;
+  font-weight: 400;
+  opacity: 0.9;
+  font-size: 2.4rem;
+  display: flex;
+  justify-content: center;
+}
+header .logo .headingLine h1::before,
+#auctions .logo .headingLine h1::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  width: 17rem;
+  height: 2px;
+  border-radius: 25px;
+  background-color: #e302de;
+}
+#walkingAir {
+  padding-top: 2.5rem;
+}
+#walkingAir .leftSide .cardImg {
+  border: 3px solid #31d5db;
+}
+#walkingAir .leftSide .leftText {
+  padding-top: 1.1rem;
+}
+#walkingAir .leftSide .leftText .time,
+#auctions .cardText .time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#walkingAir .leftSide .leftText .time .dateText,
+#walkingAir .leftSide .leftText .time .number,
+#auctions .cardText .time .number,
+#auctions .cardText .dateText {
+  font-family: "Agency FB", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.0155rem;
+}
+#walkingAir .leftSide .leftText .time .number,
+#auctions .cardText .time .number {
+  font-size: 1.4rem;
+  padding-top: 0.3rem;
+  color: #31d5db;
+}
+#walkingAir .leftSide .leftText .cardLinks,
+#walkingAir .leftSide .leftText .userImg {
+  padding-top: 1.4rem;
+}
+#walkingAir .leftSide .leftText .cardLinks a {
+  font-family: "Agency FB", sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin-right: 1.3rem;
+  font-weight: 100;
+  letter-spacing: 0.0155rem;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+#walkingAir .leftSide .leftText .cardLinks a:hover,
+#walkingAir .leftSide .leftText .cardLinks .active {
+  color: #31d5db;
+}
+#walkingAir .leftSide .leftText .cardLinks a::before,
+#walkingAir .leftSide .leftText .cardLinks .active::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  border-radius: 25px;
+  transition: all 0.3s ease-in-out;
+  background-color: #31d5db;
+}
+#walkingAir .leftSide .leftText .cardLinks a:hover::before,
+#walkingAir .leftSide .leftText .cardLinks .active::before {
+  width: 100%;
+}
+#walkingAir .leftSide .leftText .userImg p,
+#walkingAir .rightSide p {
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 300;
+  line-height: 22px;
+}
+#walkingAir .leftSide .leftText .userImg p span {
+  color: white;
+}
+#walkingAir .leftSide .leftText .userImg .eth {
+  color: #31d5db;
+}
+#walkingAir .leftSide .leftText .userImg .second {
+  margin-top: 1.9rem;
+}
+#walkingAir .rightSide h3 {
+  font-family: "Agency FB", sans-serif;
+  font-size: 2rem;
+}
+#walkingAir .rightSide p {
+  padding-top: 0.3rem;
+  padding-right: 5rem;
+}
+#walkingAir .rightSide .two {
+  margin: 0 0.7rem;
+  transform: scale(0.8);
+}
+#walkingAir .rightSide .ownedBy {
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 300;
+}
+#walkingAir .rightSide .rioArham {
+  text-decoration: none;
+  display: inline-block;
+  color: #31d5db;
+}
+#walkingAir .rightSide .price {
+  display: flex;
+  justify-content: space-between;
+}
+#walkingAir .rightSide .price .diffColor {
+  color: #31d5db;
+}
+#walkingAir .rightSide .price .priceText {
+  line-height: 22px;
+}
+#walkingAir .rightSide .price .of {
+  color: rgba(255, 255, 255, 0.4);
+}
+#walkingAir .rightSide .box {
+  background-color: #1f102c;
+  border: 1px dashed #e302de;
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  border-radius: 16px;
+  padding: 0.1rem 0.3rem;
+}
+#walkingAir .rightSide .box img {
+  transform: scale(0.8);
+}
+#walkingAir .rightSide .arham {
+  color: #31d5db;
+}
+#walkingAir .rightSide .creator {
+  color: white;
+}
+#walkingAir .rightSide .longBox {
+  padding: 1.8rem 1.4rem;
+}
+#walkingAir .rightSide .bidBtn {
+  font-family: "Agency FB", sans-serif;
+  color: #31d5db;
+  border-color: #31d5db !important;
+  border-width: 2px !important;
+  font-size: 1.4rem;
+  margin-top: 2.5rem;
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
+  letter-spacing: 0.0155rem;
+}
+#auctions .logo .headingLine h1::before {
+  width: 14.4rem;
+}
+#auctions .card {
+  background-color: transparent;
+  border-radius: 0;
+}
+#auctions .card .card-img-overlay {
+  border-radius: 0;
+}
+#auctions .card .card-img-overlay .cardText {
+  padding-top: 0.7rem;
+}
+#auctions .card .card-img-overlay .cardText .dateText {
+  font-size: 1.2rem;
+}
+#auctions .card .card-img-overlay .cardText .time {
+  padding-left: 2rem;
+  padding-right: 1.2rem;
+}
+#auctions .card .card-img-overlay .cardText .time .number {
+  font-size: 1.3rem;
+  padding-top: 0;
+}
+#auctions .card .card-img-overlay .cardImg,
+#auctions .card .card-img-overlay .cardText .arts,
+#auctions .card .card-img-overlay .cardText .circleImg,
+#auctions .card .cardBottom {
+  padding: 2rem 2rem 0 2rem;
+}
+#auctions .card .card-img-overlay .cardBottom,
+#auctions .card .card-img-overlay .cardText .arts {
+  padding-top: 0;
+}
+#auctions .card .card-img-overlay h6 {
+  font-family: "Agency FB", sans-serif;
+  font-size: 1.5rem;
+  padding-top: 0.3rem;
+}
+#auctions .card .card-img-overlay .userImg {
+  width: 55px;
+  margin-right: 0.6rem;
+}
+#auctions .card .card-img-overlay .arham {
+  color: #31d5db;
+}
+
+#auctions .card .card-img-overlay .cardBottom p {
+  font-weight: 500;
+}
+#auctions .card .card-img-overlay .cardBottom p span {
+  font-weight: 400;
+  color: #31d5db;
+}

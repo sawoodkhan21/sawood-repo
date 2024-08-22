@@ -1,0 +1,78 @@
+body {
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+p {
+  line-height: 27px;
+}
+header .navbar,
+#articles {
+  background-color: #faf0dc;
+}
+header .navbar .navbar-brand img {
+  width: 230px;
+}
+header .navbar .navbar-collapse .navbar-nav .nav-link {
+  text-transform: uppercase;
+  color: rgb(14, 14, 14);
+  padding-right: 36px;
+  font-size: 0.9em;
+  font-family: "Montserrat", sans-serif;
+}
+#articles h1 {
+  font-weight: 700;
+}
+#articles .card {
+  border: unset;
+  border-radius: unset;
+  background: transparent;
+}
+#articles .card .card-body {
+  padding-top: 0.7em;
+}
+#articles .card .card-body p {
+  font-family: "Comfortaa", cursive;
+  font-size: 0.9em;
+  line-height: 25px;
+  margin-bottom: 0.4em;
+}
+#articles .card .card-body a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  font-size: 0.9em;
+  color: #ff593f;
+}
+#articles .card .card-body span {
+  display: inline-block;
+  margin-left: 0.3em;
+}
+footer {
+  font-family: "Comfortaa", cursive;
+  background-color: #8eb4db;
+}
+footer img {
+  width: 230px;
+}
+footer p {
+  color: white;
+}
+footer .socialLinks a {
+  height: 47px;
+  width: 47px;
+  line-height: 47px;
+  border-radius: 50%;
+  font-size: 1.5em;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  color: #8eb4db;
+  background-color: white;
+}

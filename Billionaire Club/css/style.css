@@ -1,0 +1,293 @@
+body {
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif !important;
+}
+html {
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+button:focus,
+.btn:focus,
+.form-control:focus,
+.form-select:focus {
+  outline: none;
+  box-shadow: none !important;
+}
+header .navbarBgColor {
+  background-color: black;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+header .navbar .navbar-brand img {
+  width: 215px;
+}
+header .navbar .navbar-collapse .navbar-nav li {
+  margin-left: 1.2rem;
+  margin-right: 1.2rem;
+}
+header .navbar .navbar-collapse .navbar-nav .navbarLink {
+  color: white;
+  font-weight: 500;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+}
+header .navbar .navbar-collapse .navbar-nav .navbarLink:hover {
+  color: #7f18bb;
+}
+header .navbar .navbar-collapse .navbar-nav .navbarLink::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 4px;
+  width: 0;
+  height: 2px;
+  transition: all 0.5s ease;
+  background-color: #7f18bb;
+}
+header .navbar .navbar-collapse .navbar-nav .navbarLink:hover::before {
+  width: 100%;
+}
+header .navbar .navbar-collapse .navbarRight {
+  display: flex;
+  align-items: center;
+}
+header .navbar .navbar-collapse .navbarSocialIcon {
+  margin-right: 2.5rem;
+}
+header .navbar .navbar-collapse .navbarSocialIcon a {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 1.1rem;
+  display: inline-block;
+  background-color: white;
+  color: #000;
+  margin: 0 0.3rem;
+  transition: all 0.5s ease;
+}
+header .navbar .navbar-collapse .navbarSocialIcon a:hover {
+  transform: translateY(-3px);
+}
+header .navbar .navbar-collapse .navbarSocialIcon .fa-paper-plane {
+  color: white;
+  background-color: #000;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 0.8rem;
+}
+#bgMonkey {
+  background: url(../img/bg-Monky.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+#bgMonkey .gradientBtn,
+header .navbarRight .gradientBtn,
+#goldenGuests .btn {
+  color: white;
+  background: linear-gradient(90deg, #7e19bb, #38249c);
+  border: 2px solid transparent;
+  border-image: linear-gradient(90deg, #02faf5, #ff9eff);
+  border-image-slice: 1;
+  font-weight: 700;
+  border-radius: unset;
+  padding: 0.975rem 1.3rem;
+}
+#billionaireClub {
+  background-color: #000000;
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+#billionaireClub .about {
+  color: #807e63;
+  display: flex;
+  align-items: center;
+}
+#billionaireClub .about span {
+  display: inline-block;
+  width: 150px;
+  height: 2px;
+  opacity: 0.9;
+  margin-left: 0.8rem;
+  background-color: #808080;
+}
+#billionaireClub .heading {
+  margin-bottom: 2.9rem;
+}
+#billionaireClub .heading h2,
+#goldenGuests .heading h2,
+#launchRoadmap .heading h2 {
+  font-weight: 700;
+  font-size: 2.7rem;
+}
+#billionaireClub .heading .differentColor {
+  color: #7f18bb;
+}
+#billionaireClub .descriptionOne {
+  color: #807e63;
+  font-size: 1.1rem;
+}
+#billionaireClub .descriptionOne span {
+  color: white;
+}
+#billionaireClub .purpleColor {
+  color: #ee82ee;
+}
+#billionaireClub .joinUs {
+  color: white;
+  text-decoration: none;
+  margin-top: 2.5rem;
+  display: inline-block;
+  position: relative;
+}
+#billionaireClub .joinUs i {
+  color: #7f18bb;
+  transform: scale(1.4) translateY(2px) translateX(5px);
+}
+#billionaireClub .joinUs::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 120px;
+  height: 1px;
+  background-color: #a8a8a8;
+}
+#monkeySection {
+  background-color: #151515;
+  color: white;
+  padding-top: 4rem;
+}
+#goldenGuests span {
+  font-weight: 700;
+}
+#goldenGuests p {
+  color: #807e63;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+#monkey {
+  padding-bottom: 3rem;
+}
+#monkey .names {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 3rem;
+}
+#monkey .names div {
+  width: 14.28%;
+  margin-right: 0.7rem;
+  margin-left: 0.7rem;
+}
+#monkey .names p {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-top: 0.6rem;
+}
+#launchRoadmap {
+  background-color: #000000;
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 2.3rem;
+}
+#launchRoadmap p {
+  color: #807e63;
+  font-size: 1.1rem;
+}
+#launchRoadmap .heading {
+  text-align: center;
+  margin-bottom: 1.3rem;
+}
+#launchRoadmap .heading h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+#launchRoadmap .box {
+  border: 1px solid #7f18bb;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#launchRoadmap .box h3 {
+  font-size: 2.5rem;
+  color: #7f18bb;
+  font-weight: 700;
+}
+#launchRoadmap .bottom {
+  padding-bottom: 2rem;
+}
+#launchRoadmap h5 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 0.7rem;
+}
+@media (max-width: 992px) {
+  #billionaireClub .about {
+    margin-top: 2rem;
+    margin-bottom: 0.4rem;
+  }
+  #billionaireClub .heading {
+    margin-bottom: 2rem;
+  }
+  #billionaireClub .joinUs {
+    margin-bottom: 2.5rem;
+    margin-top: 2rem;
+  }
+  #launchRoadmap .box {
+    margin-bottom: 1.2rem;
+  }
+  #launchRoadmap .bottom {
+    padding-bottom: 3rem;
+  }
+  #launchRoadmap .heading {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  header .navbar .navbar-collapse .navbarRight {
+    display: unset;
+  }
+  header .navbar .navbar-collapse .navbarSocialIcon {
+    margin: 1rem 0;
+  }
+  header .navbar .navbar-collapse .navbar-nav .navbarLink {
+    padding-left: 0.4rem;
+  }
+  .names {
+    flex-direction: column;
+  }
+  #monkey .names div {
+    width: 50%;
+    margin-bottom: 1.5rem;
+    margin-right: 0;
+  }
+  #billionaireClub .heading h2,
+  #goldenGuests .heading h2,
+  #launchRoadmap .heading h2 {
+    font-size: 2.2rem;
+  }
+}

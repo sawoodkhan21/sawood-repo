@@ -1,0 +1,469 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body,
+html {
+  font-family: "Poppins", sans-serif !important;
+}
+body {
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+.btn:focus,
+button:focus,
+.form-control:focus,
+.form-select:focus {
+  outline: none;
+  box-shadow: none !important;
+}
+header nav .navbar-collapse .navbarLinks li {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+header nav .navbar-collapse .navbarLinks .navLink {
+  font-weight: 600;
+  color: #181175 !important;
+  padding-left: 0;
+  padding-right: 0;
+  text-transform: uppercase;
+}
+header nav .navbar-collapse .navbarRight {
+  display: flex;
+  align-items: center;
+}
+header nav .navbar-collapse .navbarRight .loginBtn,
+header nav .navbar-collapse .navbarRight .joinBtn {
+  color: white;
+  box-shadow: -1px 0 9px #b0cbdf;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 600;
+  width: 115px;
+  height: 44px;
+  line-height: 30px;
+  transition: all 0.3s ease-in-out;
+}
+header nav .navbar-collapse .navbarRight .loginBtn:hover,
+header nav .navbar-collapse .navbarRight .joinBtn:hover,
+#heroSection .accountBtn:hover,
+#heroSection .playBtn:hover,
+#pokerCrypto .accountBtn:hover,
+#bitcoinPoker .accountBtn:hover,
+#security .btn:hover,
+#wallet .accountBtn:hover,
+#community .accountBtn:hover,
+#Personalized .accountBtn:hover {
+  transform: translateY(-2px);
+}
+header nav .navbar-collapse .navbarRight .loginBtn,
+#heroSection .accountBtn,
+#pokerCrypto .accountBtn,
+#bitcoinPoker .accountBtn,
+#Personalized .accountBtn {
+  border: 0;
+  color: white;
+  background: linear-gradient(45deg, #4d6cef, #21218b);
+}
+header nav .navbar-collapse .navbarRight .joinBtn,
+#heroSection .playBtn {
+  background-color: #4d6cef;
+  margin-left: 1.8em;
+}
+.largeHeading {
+  color: #181175;
+  font-size: 4.4em;
+  font-weight: 200;
+  line-height: 70px;
+  margin-top: 1em;
+}
+.play,
+.bitcoin,
+.poker {
+  color: #4d6cef;
+  font-weight: 800;
+  font-size: 1.1em;
+}
+.poker {
+  font-style: italic;
+}
+#heroSection {
+  position: relative;
+}
+#heroSection .heroImg {
+  transform: scale(1.7);
+}
+#heroSection p {
+  font-size: 1.1em;
+  color: #21218b;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 1.3em 0;
+}
+#heroSection .accountBtn,
+#pokerCrypto .accountBtn,
+#bitcoinPoker .accountBtn,
+#security .accountBtn,
+#wallet .accountBtn,
+#community .accountBtn,
+#Personalized .accountBtn {
+  box-shadow: -1px 0 9px #b0cbdf;
+  font-weight: 600;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  padding: 0.7em 2.5em;
+  transition: all 0.3s ease-in-out;
+}
+#heroSection .playBtn {
+  color: white;
+  box-shadow: -1px 0 9px #b0cbdf;
+  padding: 0.6em 1.7em;
+  transition: all 0.3s ease-in-out;
+}
+#heroSection .playBtn i {
+  transform: scale(1.3);
+}
+#heroSection .brands {
+  text-align: center;
+}
+#heroSection .brands div:nth-child(3) {
+  padding-right: 3.3em;
+}
+#heroSection .brands div a img {
+  transition: all 0.3s ease-in-out;
+}
+#heroSection .brands div a img:hover {
+  transform: scale(1.1);
+}
+#pokerCrypto {
+  position: relative;
+  z-index: 1;
+}
+#pokerCrypto .coinsImg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  min-height: 100%;
+}
+#pokerCrypto .largeHeading {
+  text-align: center;
+}
+#pokerCrypto .largeHeading .bitcoin {
+  display: inline-block;
+  margin-bottom: 0.2em;
+}
+#pokerCrypto .bitsNumber {
+  padding-bottom: 2.4em;
+}
+#pokerCrypto .bitsNumber h6 {
+  font-weight: 700;
+  font-size: 1.1em;
+  margin-bottom: 0.3em;
+  color: #181175;
+}
+#pokerCrypto .bitsNumber p {
+  color: #21218b;
+}
+#pokerCrypto .bitsNumber img {
+  width: 85%;
+}
+#bitcoinPoker {
+  padding-top: 6em;
+}
+#bitcoinPoker .largeHeading {
+  text-align: center;
+  margin-bottom: 2em;
+}
+#bitcoinPoker .bgBlue {
+  background-color: #181175;
+  box-shadow: -1px 0 15px #b0cbdf;
+  border-radius: 15px;
+  margin-bottom: 2em;
+  position: relative;
+}
+#bitcoinPoker .bgBlue div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+#bitcoinPoker .bgBlue h6 {
+  color: white;
+  font-size: 1.1em;
+  font-weight: 600;
+  text-align: center;
+}
+#bitcoinPoker .bgBlue img {
+  position: absolute;
+  width: 80px;
+  top: -6px;
+  left: -20px;
+}
+#bitcoinPoker .shadowBox {
+  box-shadow: -1px 0 15px #ebeef5, -1px 0 15px #ebeef5;
+  border-radius: 15px;
+  padding: 34px 37px;
+}
+.shadowBox h6 {
+  color: #181175;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 600;
+  margin-bottom: 0.8em;
+  line-height: 21px;
+}
+.shadowBox p {
+  color: #181175;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  line-height: 22px;
+}
+.imgThree {
+  width: 64px !important;
+  left: -26px !important;
+}
+#bitcoinPoker .marginBottom {
+  margin-bottom: 6em;
+}
+#bitcoinPoker .top {
+  top: -15px !important;
+}
+#bitcoinPoker .accountBtn {
+  margin-top: 5em;
+}
+#security {
+  background: url(../img/blue-bg.png) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  padding: 20em 0 25em 0;
+  text-align: center;
+}
+#security .largeHeading {
+  color: white;
+  margin-bottom: 0.4em;
+  font-weight: 400;
+  font-size: 4.5em;
+}
+#security .topPara {
+  color: white;
+  font-size: 1.1em;
+  margin-bottom: 1.5em;
+}
+#security .btn {
+  background-color: #4d6cef;
+  color: white;
+  font-weight: 600;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-radius: 9px;
+  border: 0;
+  transition: all 0.3s ease-in-out;
+}
+#security .accountBtn {
+  box-shadow: none;
+  margin-top: 2em;
+  padding-top: 0.9em;
+  padding-bottom: 0.9em;
+}
+#security .cardText p {
+  color: white;
+  font-weight: 300;
+  margin-top: 1em;
+}
+#wallet .largeHeading {
+  font-weight: 300;
+}
+#wallet p {
+  color: #181175;
+  font-size: 1.1em;
+  letter-spacing: 0.03em;
+  line-height: 28px;
+  margin: 1.8em 0 0 1.8em;
+}
+#wallet strong {
+  letter-spacing: 0;
+}
+#wallet .accountBtn {
+  background-color: #4d6cef;
+  color: white;
+}
+#community .largeHeading {
+  text-align: center;
+}
+#community .owl-carousel {
+  position: relative;
+}
+#community .owl-carousel .item {
+  border-radius: 15px;
+  background-color: white;
+  border-color: #4d6cef;
+}
+#community .owl-carousel .item .cardText {
+  padding: 1.5em 1.5em;
+}
+#community .owl-carousel .item .cardText .communityImg {
+  width: 42px;
+}
+#community .owl-carousel .item .cardText h6 {
+  font-size: 1.4em;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  line-height: 23px;
+  margin-top: 1.6em;
+  margin-bottom: 1.6em;
+  color: #181175;
+}
+#community .owl-carousel .item .readmoreBtn {
+  background-color: #181175;
+  color: white;
+  box-shadow: -1px 0 9px #7777df;
+  font-weight: 500;
+  width: 100%;
+  font-size: 0.9em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+}
+#community .owl-carousel .item .bottomImg {
+  margin-top: 2em;
+  display: flex;
+  justify-content: end;
+}
+#community .owl-carousel .owl-nav.disabled {
+  display: block;
+}
+#community .owl-carousel .owl-nav button {
+  position: absolute;
+  font-size: 5em;
+  color: #181175;
+}
+#community .owl-carousel .owl-nav :nth-child(1) {
+  left: -5%;
+  top: 35%;
+}
+#community .owl-carousel .owl-nav :nth-child(2) {
+  right: -5%;
+  top: 35%;
+}
+#community .accountBtn {
+  background-color: #4d6cef;
+  color: white;
+  margin-top: 3.5em;
+
+  transition: all 0.3s ease-in-out;
+}
+#Personalized {
+  padding-top: 2em;
+  text-align: center;
+}
+#Personalized .topPara,
+#Personalized .text p {
+  font-size: 1.1em;
+  letter-spacing: 0.02em;
+  line-height: 27px;
+  color: #21218b;
+  margin-top: 3em;
+  margin-bottom: 3.5em;
+}
+#Personalized .text h6 {
+  font-size: 1.2em;
+  color: #181175;
+  font-weight: 700;
+  margin: 0.9em 0 0.4em 0;
+}
+#Personalized .text p {
+  margin: unset;
+  line-height: 23px;
+}
+#Personalized .accountBtn {
+  margin-top: 3em;
+  margin-bottom: 3.5em;
+}
+footer {
+  padding-top: 3.5em;
+  min-height: 100vh;
+  background-color: #181175;
+}
+footer .socialIcons {
+  padding: 1.5em;
+}
+footer .socialIcons a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin-right: 1em;
+  transition: all 0.3s ease-in-out;
+}
+footer .socialIcons a:hover {
+  transform: scale(1.1);
+}
+footer .nav-link {
+  color: white;
+  padding: 0;
+  margin-bottom: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+footer hr {
+  margin: 0;
+  color: inherit;
+  background-color: white;
+  border: 0;
+  opacity: 0.25;
+}
+footer .line {
+  margin: 2.5em 0;
+}
+footer .nav-link:hover {
+  color: white;
+  transform: translateX(2px);
+}
+footer h3 {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 0.7em;
+}
+footer .brand {
+  margin-top: 6em;
+}
+@media (max-width: 992px) {
+  #heroSection {
+    text-align: center;
+  }
+  #heroSection .heroImg {
+    transform: scale(1) !important;
+  }
+}
+@media (max-width: 768px) {
+  .largeHeading {
+    line-height: 40px;
+    font-size: 2.2em;
+  }
+  #security .largeHeading {
+    font-size: 2.3em;
+  }
+  #pokerCrypto .bitsNumber h6 {
+    margin-top: 1em;
+  }
+  #bitcoinPoker .bgBlue {
+    margin-bottom: 0;
+  }
+  #bitcoinPoker .marginBottom {
+    margin-bottom: 0;
+  }
+  #security {
+    padding-top: 15em;
+    padding-bottom: 17em;
+  }
+  #wallet {
+    text-align: center;
+  }
+  #wallet p {
+    margin: 0;
+  }
+}

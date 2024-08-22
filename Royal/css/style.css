@@ -1,0 +1,239 @@
+body {
+  overflow-x: hidden;
+  font-family: "Open Sans", sans-serif !important;
+}
+html {
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+header {
+  background: url(../img/Background-img.PNG) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  min-height: 600px;
+  position: relative;
+}
+header .centerText {
+  max-width: 592px;
+  height: 65px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: #ead7b9;
+}
+header .centerText h1 {
+  font-weight: 600;
+  /* padding-top: 0.5rem; */
+  letter-spacing: -0.0495rem;
+}
+.fontImg {
+  padding-bottom: 1rem;
+}
+#arrived {
+  padding: 2rem 0;
+  z-index: 1;
+  position: relative;
+  background-color: #ead7b9;
+}
+#arrived img {
+  width: 45%;
+}
+#arrived h3 {
+  margin-bottom: 1rem;
+}
+#arrived p {
+  line-height: 26px;
+}
+#arrived .middleText {
+  margin: 1rem 0;
+}
+#arrived .btnRight {
+  display: flex;
+  justify-content: flex-end;
+  transform: translateX(40px) translateY(35px);
+}
+#arrived .btnRight .discordBtn {
+  background-color: #8f2414;
+  color: white;
+  font-style: italic;
+  font-weight: 500;
+  border: unset;
+  padding: 0.575rem 2.2rem;
+  border-radius: 0.41rem;
+}
+#arrived .welcome {
+  color: #8f2414;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+#mint {
+  background-color: #8f2414;
+  color: white;
+  position: relative;
+  padding: 200px 0;
+  text-align: center;
+}
+#mint .topImg {
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 100%;
+  transform: rotate(180deg);
+}
+#mint .bottomImg {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+}
+#mint .text {
+  position: relative;
+}
+#mint h3 {
+  color: white;
+}
+#mint .text p {
+  line-height: 26px;
+}
+#mint .one {
+  margin-bottom: 1rem;
+}
+#parity {
+  background-color: #ead7b9;
+}
+#parity .imgText,
+#arts .imgText {
+  padding: 0 1px;
+  text-align: center;
+}
+#parity .imgText p,
+#arts .imgText p {
+  font-weight: 600;
+  font-style: italic;
+  color: #21252e;
+}
+#parity .parityText {
+  position: relative;
+  text-align: center;
+}
+#parity .parityText h3 {
+  margin-bottom: 1.1rem;
+}
+#parity .parityText .pups {
+  margin-bottom: 0.9rem;
+  font-size: 1.1rem;
+  color: #8f2414;
+}
+#parity .parityText h6 {
+  color: #8f2414;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+#parity .parityText .para {
+  margin-bottom: 1rem;
+}
+#arts {
+  padding-top: 1rem;
+  background-color: #ead7b9;
+}
+#arts .bottomText {
+  margin-top: 8rem;
+  text-align: center;
+}
+#arts .bottomText p {
+  padding: 0 85px;
+}
+#legacy {
+  background-color: #ead7b9;
+  padding-top: 3rem;
+}
+#legacy .legacyText {
+  text-align: center;
+}
+#legacy .bottom {
+  margin-top: 6rem;
+  padding: 0 85px;
+}
+#royalRoadmap {
+  padding: 12rem 0;
+  position: relative;
+  background-color: #8f2414;
+}
+#royalRoadmap .tajImg {
+  position: relative;
+}
+#royalRoadmap .topImg {
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 100%;
+  transform: rotate(180deg);
+}
+#royalRoadmap .bottomImg {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+}
+#royalRoadmap .lifeOff {
+  background-color: #ead7b9;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 1rem 1.5rem;
+  position: relative;
+}
+#royalRoadmap .lifeOff .leftText,
+#development .lifeOff .leftText {
+  width: 20%;
+}
+#royalRoadmap .lifeOff .leftText h5,
+#development .lifeOff .leftText h5 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #8f2414;
+}
+#royalRoadmap .lifeOff .leftText p,
+#development .lifeOff .leftText p {
+  color: #8f2414;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+#royalRoadmap .lifeOff .rightText,
+#development .lifeOff .rightText {
+  width: 80%;
+}
+#development {
+  background-color: #ead7b9;
+}
+#development h3 {
+  color: #8f2414;
+}
+#development .lifeOff {
+  background-color: #8f2414;
+  color: white;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 1rem 1.5rem;
+  position: relative;
+}
+#development .lifeOff .leftText h5 {
+  color: white;
+}
+#development .lifeOff .leftText p {
+  color: white;
+}
